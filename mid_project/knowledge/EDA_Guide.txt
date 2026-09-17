@@ -1,0 +1,34 @@
+Exploratory Data Analysis (EDA)
+
+EDA is the process of exploring and understanding a dataset before building a machine learning model.
+
+Common steps in EDA include:
+
+1. Understanding the structure of the dataset.
+2. Checking missing values.
+3. Checking duplicated records.
+4. Exploring numerical variables using descriptive statistics.
+5. Exploring categorical variables using counts and proportions.
+6. Using visualizations to identify patterns and relationships.
+
+Distribution plots are useful for understanding the distribution of numerical variables.
+
+Count plots are useful for showing the number of observations in different categories.
+
+A histogram shows how numerical values are distributed across different ranges.
+
+A box plot can help identify the median, spread, and potential outliers.
+
+A scatter plot is useful for exploring the relationship between two numerical variables.
+
+A bar chart is useful for comparing values across different categories.
+
+The mean is the average value of a numerical variable.
+
+The median is the middle value when the data is ordered.
+
+The standard deviation measures how spread out the values are from the mean.
+
+Missing values should be identified and handled before performing analysis.
+
+Correlation measures the strength and direction of the relationship between numerical variables.
