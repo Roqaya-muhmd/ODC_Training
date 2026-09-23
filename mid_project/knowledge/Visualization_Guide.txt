@@ -1,0 +1,33 @@
+Data Visualization for Data Analysis
+
+Data visualization turns numbers into charts so patterns, trends, and outliers become easier to see than in raw tables.
+
+Distribution plots (histograms) show how numerical values are distributed across ranges (bins), helping identify whether data is skewed, symmetric, or has multiple peaks.
+
+Count plots show the number of observations in each category of a categorical variable, useful for comparing category frequencies.
+
+Box plots show the median, quartiles (Q1 and Q3), and potential outliers of a numerical variable in one compact chart. The "box" covers the middle 50% of the data (IQR), and points outside the whiskers are flagged as outliers.
+
+Scatter plots show the relationship between two numerical variables, with each point representing one observation. They are the standard way to visually check for correlation.
+
+Bar charts compare a numerical value across different categories, using the height (or length) of bars.
+
+Line charts show how a numerical value changes over an ordered sequence, most commonly time, making them the standard choice for trends.
+
+Heatmaps use color intensity to represent values in a matrix, most commonly used to visualize a correlation matrix between multiple numerical variables at once.
+
+Pair plots (or scatter matrices) show scatter plots for every pair of numerical variables in a dataset simultaneously, along with each variable's individual distribution, useful for spotting relationships across many variables quickly.
+
+Pie charts show the proportion of categories as slices of a whole circle. They work best with a small number of categories and are generally discouraged when there are many categories, since bar charts are usually easier to read accurately.
+
+Choosing a chart type:
+
+Use a histogram or box plot for one numerical variable.
+
+Use a count plot or bar chart for one categorical variable.
+
+Use a scatter plot for two numerical variables.
+
+Use a box plot or bar chart to compare a numerical variable across categories.
+
+Use a heatmap for many numerical variables at once (correlation overview).

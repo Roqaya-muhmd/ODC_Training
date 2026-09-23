@@ -1,0 +1,43 @@
+Descriptive Statistics for Data Analysis
+
+Descriptive statistics summarize and describe the main features of a dataset without drawing conclusions beyond the data itself.
+
+Measures of central tendency:
+
+Mean is the average of all values, calculated by summing them and dividing by the count. It is sensitive to outliers.
+
+Median is the middle value when data is sorted. It is more robust to outliers than the mean.
+
+Mode is the most frequently occurring value in the dataset. It is useful for categorical data.
+
+Measures of spread:
+
+Range is the difference between the maximum and minimum values.
+
+Variance measures how far each value in the dataset is from the mean, on average, squared.
+
+Standard deviation is the square root of the variance, expressed in the same units as the original data. A low standard deviation means values are close to the mean; a high one means values are spread out.
+
+Interquartile Range (IQR) is the difference between the 75th percentile (Q3) and the 25th percentile (Q1). It represents the spread of the middle 50% of the data.
+
+Outliers are values that fall unusually far from the rest of the data. A common rule using IQR is: a value is an outlier if it is below Q1 - 1.5*IQR or above Q3 + 1.5*IQR.
+
+Correlation:
+
+Correlation measures the strength and direction of a linear relationship between two numerical variables, expressed as a value between -1 and 1.
+
+A correlation close to 1 means a strong positive relationship (both variables increase together).
+
+A correlation close to -1 means a strong negative relationship (one increases as the other decreases).
+
+A correlation close to 0 means little to no linear relationship.
+
+Correlation does not imply causation: two variables can be correlated without one causing the other.
+
+Skewness:
+
+Skewness describes the asymmetry of a distribution. Positive skew means a longer tail on the right (most values are low, with some high outliers). Negative skew means a longer tail on the left.
+
+Missing data:
+
+Missing values can be handled by removing rows/columns with too many missing values, filling them with the mean/median/mode (imputation), or using a placeholder value, depending on how much data is missing and why.
